@@ -21,12 +21,6 @@ python main.py example.md output.html
 | Higher-Order Functions | `apply_rule` is passed into `functools.reduce` over `INLINE_RULES` |
 | Isolated Side-Effects | only `read_file`, `write_file`, and `run` touch I/O |
 
-## Running Tests
-
-```bash
-python -m pytest tests.py -v
-```
-
 ## Project Structure
 
 ```
